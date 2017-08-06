@@ -7,4 +7,4 @@ PHP webshells
 [@_7U2_](https://twitter.com/_7U2_)
 
 ## License
-[GPL v3](http://github.com/tuz358/webshell/LICENSE)
+[GPL v3](https://github.com/tuz358/webshell/master/LICENSE)
