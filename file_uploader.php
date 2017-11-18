@@ -5,8 +5,9 @@
   <style>
     body {
       background: #222222;
+      color: #eeeeee;
     }
-    font {
+    span {
       color: #eeeeee;
     }
   </style>
@@ -18,22 +19,20 @@
     <input type="submit" value="upload">
   </form>
 
-  <pre>
-    <font>
-      <?php
-      $upload_dir = './';
-      $upload_file = $upload_dir . basename($_FILES['userfile']['name']);
+  <span>
+    <?php
+    $upload_dir = './';
+    $upload_file = $upload_dir . basename($_FILES['userfile']['name']);
 
-      if (is_uploaded_file($_FILES['userfile']['tmp_name'])) {
-        if (move_uploaded_file($_FILES['userfile']['tmp_name'], $upload_file)) {
-          echo "Uploading successful.";
-        } else {
-          echo "Uploading failure.";
-        }
+    if (is_uploaded_file($_FILES['userfile']['tmp_name'])) {
+      if (move_uploaded_file($_FILES['userfile']['tmp_name'], $upload_file)) {
+        echo "Uploading successful.";
+      } else {
+        echo "Uploading failure.";
       }
-      ?>
-    </font>
-  </pre>
+    }
+    ?>
+  </span>
 
 </body>
 </html>
