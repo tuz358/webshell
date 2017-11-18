@@ -16,7 +16,7 @@ $ php -S localhost:8000
 and open http&#58;//localhost:8000/{filename}.php on your web browser
 
 ## Author
-[@_7U2_](https://twitter.com/_7U2_)
+[tuz358](https://github.com/tuz358)
 
 ## License
 [GPL v3](https://github.com/tuz358/webshell/blob/master/LICENSE)
