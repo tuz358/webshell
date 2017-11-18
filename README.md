@@ -3,7 +3,7 @@
 PHP webshells
 
 ## Requirement
-- PHP
+- PHP (version 5.4~)
 
 ## Usage
 
