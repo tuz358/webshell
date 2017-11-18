@@ -13,7 +13,7 @@ $ cd webshell
 $ php -S localhost:8000
 ```
 
-and open http://localhost:8000/{filename}.php on your web browser
+and open http&#58;//localhost:8000/{filename}.php on your web browser
 
 ## Author
 [@_7U2_](https://twitter.com/_7U2_)
